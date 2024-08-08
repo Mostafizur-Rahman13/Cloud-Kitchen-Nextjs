@@ -15,6 +15,8 @@ const config: Config = {
       lightgrey:"#444245",
       grey:"rgba(0, 0, 0, 0.55)",
       lightpink:"#F8F7F7",
+      pink:'#DF6751',
+      bgpink:"rgba(223,103,81,0.15)",
       darkpink:"#FEEDEA",
       lightblack:"#333333",
       textbl:"#363636",
