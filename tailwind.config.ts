@@ -11,7 +11,7 @@ const config: Config = {
       transparent: "transparent",
       current:"currentColor",
       white:"#ffffff",
-      color:"#000000",
+      black:"#000000",
       lightgrey:"#444245",
       grey:"rgba(0, 0, 0, 0.55)",
       lightpink:"#F8F7F7",
