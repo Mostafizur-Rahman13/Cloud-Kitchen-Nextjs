@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import { Disclosure } from '@headlessui/react'
 import Image from 'next/image'
@@ -5,6 +6,8 @@ import logo from '@/public/Logo/Logo.svg'
 import phone from '@/public/Navbar/phone.svg'
 import Link from 'next/link'
 import { Bars3Icon } from '@heroicons/react/24/outline'
+import Drawer from './Drawer'
+import Drawerdata from './Drawerdata'
 
 interface NavigationItem {
   name: string;
@@ -24,6 +27,9 @@ function className(...classes: string[]) {
 }
 
 const Navbar = () => {
+
+  const [isOpen, setIsOpen] = React.useState(false);
+
   return (
     <Disclosure as="nav" className='navbar'>
 
@@ -81,8 +87,15 @@ const Navbar = () => {
 
             {/* Hamburger Menu */}
             <div className='block lg:hidden'>
-              <Bars3Icon className='block w-6 h-6' aria-hidden='true' />
+              <Bars3Icon className='block w-6 h-6'
+                aria-hidden='true'
+                onClick={() => setIsOpen(true)} />
             </div>
+
+            <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
+              <Drawerdata />
+            </Drawer>
+
           </div>
         </div>
       </>
