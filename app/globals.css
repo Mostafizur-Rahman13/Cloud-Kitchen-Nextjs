@@ -10,7 +10,7 @@
 
 html {
   scroll-behavior: smooth !important;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .card-b {
