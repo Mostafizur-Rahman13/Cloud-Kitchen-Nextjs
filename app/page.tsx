@@ -4,11 +4,13 @@ import Expert from "./components/Expert";
 import Features from "./components/Features";
 import Gallery from "./components/Gallery";
 import Newsletter from "./components/Newsletter";
+import Work from "./components/Work";
 
 export default function Home() {
   return (
     <main>
       <Banner />
+      <Work />
       <Features />
       <Cook />
       <Expert />

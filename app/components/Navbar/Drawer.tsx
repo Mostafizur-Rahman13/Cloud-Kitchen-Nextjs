@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react'
 import Image from 'next/image';
-import logo from '@/public/Logo/Logo.svg';
+import logo from '@/public/Images/Logo/Logo.svg';
 import { XMarkIcon } from '@heroicons/react/24/outline';
 
 interface DrawerProps {

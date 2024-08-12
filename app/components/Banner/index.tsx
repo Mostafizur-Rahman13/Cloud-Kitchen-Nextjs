@@ -1,8 +1,8 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import Pizza from '@/public/Banner/pizza.svg'
-import Bannerpic from '@/public/Banner/banner-image.png'
+import Pizza from '@/public/Images/Banner/pizza.svg'
+import Bannerpic from '@/public/Images/Banner/banner-image.png'
 import { Fade } from 'react-awesome-reveal';
 
 
