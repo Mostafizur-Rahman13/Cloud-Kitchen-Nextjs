@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Slider from 'react-slick'
 import Image from 'next/image';
 import Linkdin from '@/public/Images/Expert/Linkedin.svg'
+import { Fade } from 'react-awesome-reveal'
 
 // CAROUSEL DATA
 interface DataType {
@@ -53,37 +54,37 @@ export default class MultipleItems extends Component {
       dots: true,
       infinite: true,
       speed: 500,
-      slidesToShow: 1,
+      slidesToShow: 3,
       slidesToScroll: 1,
       arrows: false,
-      autoplay: false,
+      autoplay: true,
       autoplaySpeed: 2000,
-      cssEase: 'liner',
+      cssEase: 'linear',
       responsive: [
         {
           breakpoint: 1200,
           settings: {
-            slidesToshow: 3,
+            slidesToShow: 3,
             SlidesToScroll: 1,
-            Infinity: true,
+            infinite: true,
             dots: true
           }
         },
         {
           breakpoint: 800,
           settings: {
-            slidesToshow: 2,
+            slidesToShow: 2,
             SlidesToScroll: 1,
-            Infinity: true,
+            infinite: true,
             dots: true
           }
         },
         {
           breakpoint: 450,
           settings: {
-            slidesToshow: 1,
+            slidesToShow: 1,
             SlidesToScroll: 1,
-            Infinity: true,
+            infinite: true,
             dots: true
           }
         },
@@ -92,24 +93,34 @@ export default class MultipleItems extends Component {
 
     return (
       <div className='py-10 sm:py-20 bg-darkpink '>
-        <div className='mx-auto max-2xl lg:max-w-7xl sm:py-4 lg:px-8'>
+        <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8'>
           <div className='text-center'>
-            <h2 className='text-pink text-lg font-normal mb-3 tracking-widest uppercase ls-51'>Expert Chefs</h2>
-            <h3 className='text-3xl lg:text-5xl font-semibold text-black'>Let&apos;s meet the expert</h3>
+            <Fade direction='left' delay={400} cascade damping={1e-1} triggerOnce={true}>
+              <h2 className='text-pink text-lg font-normal mb-3 tracking-widest uppercase ls-51'>Expert Chefs</h2>
+
+            </Fade>
+
+            <Fade direction='right' delay={400} cascade damping={1e-1} triggerOnce={true}>
+              <h3 className='text-3xl lg:text-5xl font-semibold text-black'>Let&apos;s meet the expert</h3>
+            </Fade>
+
           </div>
 
           <Slider {...settings}>
             {
               postData.map((items, i) => (
                 <div key={i}>
-                  <div>
-                    <div>
-                      <Image src={items.imgSrc} alt='Expert' width={362} height={262} className='inline-block relative m-auto' />
+                  <div className='m-3 py-14 my-10 text-center'>
+                    <div className='relative'>
+                      <Image src={items.imgSrc} alt='Expert' width={362} height={262} className='inline-block m-auto' />
 
-                      <div className='absolute top-[40%]'>
+                      <div className='absolute top-[40%] right-[2%]'>
                         <Image src={Linkdin} alt={Linkdin} width={220} height={120} />
                       </div>
                     </div>
+
+                    <h3 className='text-2xl font-semibold text-lightblack'>{items.name}</h3>
+                    <h4 className='text-lg font-normal text-lightblack pt-4 pb-2 opacity-50'>{items.profession}</h4>
                   </div>
                 </div>
               ))
