@@ -34,7 +34,7 @@ const Cook = () => {
               <h3 className='text-3xl lg:text-5xl font-semibold text-black text-start'>Cooking together with the expert</h3>
             </Fade>
 
-            <Fade direction='down' delay={1000} cascade damping={1e-1} triggerOnce={true}>
+            <Fade direction='up' delay={1000} cascade damping={1e-1} triggerOnce={true}>
               <p className='text-grey md:text-lg font-normal mb-10 text-start mt-2'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus saepe architecto vel sit quibusdam ad cum qui similique quaerat obcaecati ipsam sapiente nesciunt enim deserunt corrupti blanditiis assumenda, soluta eum!Voluptates cupiditate vero explicabo cumque doloremque ab, quas dolor, dolore mollitia quia veniam commodi quo harum illum iure atque.
               </p>
               <p className='text-grey md:text-lg font-normal mb-10 text-start mt-1'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis at qui possimus ut nesciunt.....</p>
