@@ -8,7 +8,7 @@ Welcome to Cloud Cooks Kitchen! This project is a modern, responsive, and user-f
 <h2>Overview</h2>
 Cloud Cooks Kitchen is designed with a focus on performance and scalability. The use of Next.js ensures fast page loads and a smooth user experience. Whether you're looking to browse the latest recipes, follow step-by-step cooking instructions, or share your own culinary creations, Cloud Cooks Kitchen has you covered.
 
-<h3>Key Features</h3>
+<h3>Key Features</h3> </br>
 * Responsive Design: The application is fully responsive, providing an optimal user experience across desktops, tablets, and mobile devices. 
 
 * Dynamic Routing: Built with Next.js dynamic routing, the app allows for smooth navigation between different recipe categories and detailed recipe pages.
