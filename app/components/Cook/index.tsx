@@ -11,7 +11,7 @@ const Cook = () => {
       <div className='mx-auto max-w-7xl lg:pt-20 sm:pb-24 px-6'>
         <div className='absolute right-0 bottom-[-18%] hidden lg:block'>
           <Fade direction='right' delay={400} cascade damping={1e-1} triggerOnce={true}>
-            <Image src={Burger} alt={Burger} width={463} height={622} />
+            <Image src={Burger} alt='Burger' width={463} height={622} />
           </Fade>
         </div>
 
@@ -19,7 +19,7 @@ const Cook = () => {
           {/* Left Section */}
           <div className='col-span-6 flex justify-start'>
             <Fade direction='left' delay={400} cascade damping={1e-1} triggerOnce={true}>
-              <Image src={CookImg} alt={CookImg} width={635} height={808} />
+              <Image src={CookImg} alt='Cooking' width={635} height={808} />
             </Fade>
           </div>
 

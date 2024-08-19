@@ -27,7 +27,7 @@ const Gallery = () => {
               {/* Top Photo */}
               <div className='row-span-1 rounded-3xl overflow-hidden mb-5'>
                 <Fade direction='right' delay={600} cascade damping={1e-1} triggerOnce={true}>
-                  <Image src={Chikhenleg} alt={Chikhenleg} width={700} height={405} className='inner-img rounded-3xl' />
+                  <Image src={Chikhenleg} alt='Chikhenleg' width={700} height={405} className='inner-img rounded-3xl' />
                 </Fade>
               </div>
 
@@ -36,25 +36,25 @@ const Gallery = () => {
 
                 <div className='overflow-hidden rounded-3xl'>
                   <Fade direction='left' delay={400} cascade damping={1e-1} triggerOnce={true}>
-                    <Image src={FoodThree} alt={FoodThree} width={350} height={405} className='inner-img' />
+                    <Image src={FoodThree} alt='FoodThree' width={350} height={405} className='inner-img' />
                   </Fade>
                 </div>
 
                 <div className='overflow-hidden rounded-3xl'>
                   <Fade direction='right' delay={400} cascade damping={1e-1} triggerOnce={true}>
-                    <Image src={Pizza} alt={Pizza} width={350} height={405} className='inner-img' />
+                    <Image src={Pizza} alt='Pizza' width={350} height={405} className='inner-img' />
                   </Fade>
                 </div>
 
                 <div className='overflow-hidden rounded-3xl'>
                   <Fade direction='left' delay={400} cascade damping={1e-1} triggerOnce={true}>
-                    <Image src={FoodThree} alt={FoodThree} width={350} height={405} className='inner-img' />
+                    <Image src={FoodThree} alt='FoodThree' width={350} height={405} className='inner-img' />
                   </Fade>
                 </div>
 
                 <div className='overflow-hidden rounded-3xl'>
                   <Fade direction='right' delay={400} cascade damping={1e-1} triggerOnce={true}>
-                    <Image src={Pizza} alt={Pizza} width={350} height={405} className='inner-img' />
+                    <Image src={Pizza} alt='Pizza' width={350} height={405} className='inner-img' />
                   </Fade>
                 </div>
 

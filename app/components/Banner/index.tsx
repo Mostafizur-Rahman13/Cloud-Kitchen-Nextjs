@@ -2,7 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Pizza from '@/public/Images/Banner/pizza.svg'
-import Bannerpic from '@/public/Images/Banner/banner-image.png'
+import BannerImg from '@/public/Images/Banner/banner-image.png'
 import { Fade } from 'react-awesome-reveal';
 
 
@@ -40,13 +40,13 @@ const Banner = () => {
             <div className='flex bg-white p-2 gap-5 items-center bottom-10 left-10 rounded-xl absolute'>
 
               <Fade direction='up' delay={1000} cascade damping={1e-1} triggerOnce={true}>
-                <Image src={Pizza} alt={Pizza} width={68} height={68} />
+                <Image src={Pizza} alt='Pizza' width={68} height={68} />
               </Fade>
 
             </div>
 
             <Fade direction='right' delay={900} cascade damping={1e-1} triggerOnce={true}>
-              <Image src={Bannerpic} alt={Bannerpic} width={1000} height={805} />
+              <Image src={BannerImg} alt='BannerImg' width={1000} height={805} />
             </Fade>
 
           </div>

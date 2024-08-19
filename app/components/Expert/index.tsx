@@ -1,9 +1,9 @@
 'use client'
 import React, { Component } from 'react';
-import Slider from 'react-slick'
+import Slider from 'react-slick';
 import Image from 'next/image';
-import Linkdin from '@/public/Images/Expert/Linkedin.svg'
-import { Fade } from 'react-awesome-reveal'
+import Linkdin from '@/public/Images/Expert/Linkedin.svg';
+import { Fade } from 'react-awesome-reveal';
 
 // CAROUSEL DATA
 interface DataType {
@@ -92,7 +92,7 @@ export default class MultipleItems extends Component {
     };
 
     return (
-      <div className='py-10 sm:py-20 bg-darkpink '>
+      <div className='py-10 sm:py-20 bg-darkpink'>
         <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8'>
           <div className='text-center'>
             <Fade direction='left' delay={400} cascade damping={1e-1} triggerOnce={true}>
@@ -115,7 +115,7 @@ export default class MultipleItems extends Component {
                       <Image src={items.imgSrc} alt='Expert' width={362} height={262} className='inline-block m-auto' />
 
                       <div className='absolute top-[40%] right-[2%]'>
-                        <Image src={Linkdin} alt={Linkdin} width={220} height={120} />
+                        <Image src={Linkdin} alt='Linkdin' width={220} height={120} />
                       </div>
                     </div>
 
