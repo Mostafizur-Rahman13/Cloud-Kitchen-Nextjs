@@ -16,7 +16,8 @@
     "react-awesome-reveal": "^4.2.14",
     "react-dom": "^18",
     "react-slick": "^0.30.2",
-    "sharp": "^0.33.5"
+    "sharp": "^0.33.5",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@types/node": "^20",
