@@ -1,5 +1,6 @@
 <h2>🌼App Deploy Link Here🌼 </h2>
-<h2>mostafiz-cloud-kitchen-nextjs-bfh0764wr.vercel.app</h2> </br>
+<h2> http://mostafiz-cloud-kitchen-nextjs.vercel.app </h2> </br>
+
 
 <h1>Cloud Cooks Kitchen</h1>
 Welcome to Cloud Cooks Kitchen! This project is a modern, responsive, and user-friendly frontend application built using Next.js. It is designed to provide a seamless experience for both home cooks and professional chefs to discover, create, and share recipes.</br> </br>
